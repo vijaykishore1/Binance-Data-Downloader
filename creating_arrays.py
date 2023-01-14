@@ -12,8 +12,7 @@ containers = soup.find_all('div', class_='container-md')[1]
 table_rows = containers.find('tbody', {'id': 'listing'}).find_all("tr")
 URL_ARRAY = [row.find("td").find('a').get('href') for row in table_rows]
 URL_ARRAY.pop(0)
-for link in URL_ARRAY:
-    print(link)
+URL_ARRAY = [x.replace('?prefix=', '') for x in URL_ARRAY]
 
 from datetime import datetime, timedelta
 
@@ -44,3 +43,5 @@ print(SYMBOL_ARRAY)
 print(MONTH_ARRAY)
 print(CHART_TIME_ARRAY)
 print(URL_ARRAY)
+
+
