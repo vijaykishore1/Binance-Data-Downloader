@@ -12,7 +12,8 @@ data/
 logs/
 model_store/
 models/
-
+downloaded_data/
+extracted_data/
 # Mac
 .DS_Store
 
