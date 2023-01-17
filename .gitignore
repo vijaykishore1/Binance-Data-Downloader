@@ -12,6 +12,9 @@ data/
 logs/
 model_store/
 models/
+extracted_data/
+downloaded_data/
+
 
 # Mac
 .DS_Store
@@ -49,7 +52,9 @@ node_modules
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
 *.manifest
 *.spec
-
+*.csv
+*.zip
+*.rar
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
@@ -95,3 +100,6 @@ venv.bak/
 
 
 
+e x t r a c t e d _ d a t a 
+ 
+ extracted_data
