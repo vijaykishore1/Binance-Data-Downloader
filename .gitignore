@@ -12,9 +12,12 @@ data/
 logs/
 model_store/
 models/
+
 extracted_data/
 downloaded_data/
 
+
+=======
 
 # Mac
 .DS_Store
