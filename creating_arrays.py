@@ -47,7 +47,7 @@ date = start_date
 while date < end_date:
     # Format the date as a year-month pair
     year_month = date.strftime("%Y-%m")
-
+    #
     # Add the year-month pair to the list
     MONTH_ARRAY.append(year_month)
 
