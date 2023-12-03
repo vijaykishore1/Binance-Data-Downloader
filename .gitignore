@@ -58,6 +58,7 @@ node_modules
 *.csv
 *.zip
 *.rar
+*.pkl
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
