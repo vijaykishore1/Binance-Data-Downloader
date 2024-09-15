@@ -15,6 +15,7 @@ models/
 
 extracted_data/
 downloaded_data/
+*.optimize_imports.py
 
 
 =======
@@ -102,7 +103,13 @@ venv.bak/
 *~
 
 
+#virtual documents
 
+*.virtual_documents/
+
+#testing notebooks
+
+*testing_playground*.ipynb
 
 e x t r a c t e d _ d a t a 
  
