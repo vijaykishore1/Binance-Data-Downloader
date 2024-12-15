@@ -111,6 +111,5 @@ venv.bak/
 
 *testing_playground*.ipynb
 
-e x t r a c t e d _ d a t a 
- 
  extracted_data
+.log
