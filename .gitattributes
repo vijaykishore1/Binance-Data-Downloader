@@ -1,0 +1,4 @@
+*.ipynb filter=clean-notebook
+*.ipynb	diff=jupyternotebook
+
+*.ipynb	merge=jupyternotebook
