@@ -111,5 +111,8 @@ venv.bak/
 
 *testing_playground*.ipynb
 
+#variables secrets
+*variables.ipynb
+
  extracted_data
-.log
+
